@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RAVEN / Geographic Intelligence</title><link rel="stylesheet" href="/static/style.css"></head>
+<body><aside><div class="brand"><b>RAVEN</b><small>GEOGRAPHIC INTELLIGENCE</small></div><div class="nav active">◈ &nbsp; Investigation</div><div class="nav" id="historyNav">▤ &nbsp; Case history</div><div class="status"><i></i> LOCAL INSTANCE<br><small>127.0.0.1 · NO CLOUD AI</small></div></aside>
+<main><header><div><small>FIELD ANALYSIS / WORKSPACE</small><h1 id="heading">Investigation</h1></div><span class="badge">LOCAL ENGINE</span></header>
+<section id="workspace"><div class="intro"><h2>Reason from evidence.</h2><p>Record observable clues, define competing candidate areas, and inspect the evidence behind each ranking.</p></div>
+<div class="columns"><section class="panel"><h3>01 / OBSERVATIONS</h3><p class="muted">Describe what is visible. Avoid guessing the location in the observation itself.</p><div id="observations"></div><button class="outline" id="addObservation">＋ Add observation</button>
+<hr><h3>02 / CANDIDATE AREAS</h3><p class="muted">Enter candidate regions and the distinctive tags that would support or contradict each one.</p><div id="candidates"></div><button class="outline" id="addCandidate">＋ Add candidate</button><label>CASE TITLE<input id="title" value="New geolocation investigation"></label><button class="primary" id="run">Run evidence analysis →</button></section>
+<section class="panel output"><h3>03 / ANALYSIS</h3><div id="empty" class="empty">Awaiting observations and candidate areas.</div><div id="results" hidden></div></section></div></section>
+<section id="history" hidden class="panel"><h3>CASE HISTORY</h3><div id="caseList"></div></section>
+<footer>RAVEN 0.1.0 · EXPLAINABLE EVIDENCE ENGINE <span>NOT A CERTIFIED FEDERAL SYSTEM</span></footer></main><script src="/static/app.js"></script></body></html>
