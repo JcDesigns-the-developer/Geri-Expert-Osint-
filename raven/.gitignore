@@ -1,0 +1,22 @@
+# Local environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+artifacts/
+*.pt
+*.pth
+*.onnx
+*.gguf
+
+# Case data and potentially sensitive user material
+raven_cases.sqlite3
+cases/
+uploads/
+private-data/
+dataset/
+reference-imagery/
+.env
